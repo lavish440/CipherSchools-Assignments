@@ -1,0 +1,8 @@
+# Ignore all files in any folder starting with "Day_"
+Day_*/*
+
+# Except for files with an extension in those folders
+!Day_*/*.*
+
+# Also ignore all files with an extension .debug in any folder starting with "Day_" 
+Day_*/*.debug
