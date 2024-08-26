@@ -4,7 +4,7 @@
 int main() {
   int score;
 
-  std::cout << "Enter your score (0-100): ";
+  std::cout << "Enter the score: ";
   std::cin >> score;
 
   if (score >= 90 && score <= 100) {

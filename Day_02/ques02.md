@@ -13,11 +13,11 @@ Grade Criteria:
 **Sample Input:**
 
 ```
-Enter your score (0-100): 60
+Enter the score: 85
 ```
 
 **Sample Output:**
 
 ```
-Grade: D
+Grade: B
 ```
