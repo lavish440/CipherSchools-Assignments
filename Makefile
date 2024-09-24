@@ -45,8 +45,7 @@ debug: $(patsubst %.cpp,%.debug,$(SOURCES))
 # Clean up all the executables (both release and debug)
 clean:
 	@echo "Cleaning up..."
-	rm -f $(EXECS) $(patsubst %.cpp,%.debug,$(SOURCES))
+	@rm -f $(EXECS) $(patsubst %.cpp,%.debug,$(SOURCES))
 
 # Tell make these are not actual files
 .PHONY: all debug clean
-
