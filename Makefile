@@ -23,8 +23,9 @@ SOURCES = $(shell find . -name '*.cpp')
 EXECS = $(SOURCES:.cpp=)
 
 # Diagnostic output to ensure files are found
-$(info SOURCES = $(SOURCES))
-$(info EXECS = $(EXECS))
+# NOTE Only for Debugging
+# $(info SOURCES = $(SOURCES))
+# $(info EXECS = $(EXECS))
 
 # By default, build everything in release mode
 all: $(EXECS)
